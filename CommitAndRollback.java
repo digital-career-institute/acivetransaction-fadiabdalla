@@ -32,7 +32,6 @@ public class CommitAndRollback {
 			connection.commit();
 			System.out.println("commit done!");
 
-			System.out.println();
 		} catch (Exception e) {
 			try {
 				// rollback
